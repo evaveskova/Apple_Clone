@@ -57,22 +57,22 @@ nav a:last-child {
     border: none;
 }
 
-.flex-container {
+.main {
     display: flex;
     flex-wrap: wrap;
 }
 
-.flex-container > div {
+.main > div {
     margin-top: 2px;
     margin-right: 4px;
     background-position: center;
 }
 
-.flex-container div:last-child {
+.main div:last-child {
     margin-right: 0;
 }
 
-.flex-container div:first-child {
+.main div:first-child {
     margin: 0;
     background-position: bottom;
 }
@@ -151,15 +151,8 @@ footer {
   margin-bottom: -3px;
 }
 
-.medium {
-    background-image: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/cta_your_verse_46pt.png);
-    background-repeat: no-repeat;
-    background-position: top;
-    width: 70%;
-    height: 55px;
-    width: 980;
-    height: 64;
-}
+
+
 
 .medium:hover {
     background-image: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/cta_your_verse_46pt.png);

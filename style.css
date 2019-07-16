@@ -1,1 +1,166 @@
+.container {
+    width: 75%;
+    margin: -58px auto;
+    min-width: 820px;
+    position: relative;
+    top: 0;
 
+}
+
+nav {
+    margin: 0 auto;
+    position: relative;
+    top: 90px;
+    width: 68%;
+    height: 30px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 12px;
+    display: flex;
+    background: linear-gradient(0deg, rgba(96,96,96,1) 0%, rgba(64,64,64,1) 50%, rgba(187,187,187,1) 100%);
+    border: 1px solid gray;
+    border-radius: 5px;
+    align-items: center;
+    padding: 3px;
+
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    flex: 1;
+    border-right: 1px solid black;
+    padding: 5px;
+    color: #f2f2f2;;
+}
+
+a {
+  text-decoration: none;
+  color: #08c;
+}
+
+nav img {
+  width: 20px;
+  height: 20px;
+}
+
+.search {
+    display: inline-block;
+    margin: 6px;
+    width: 120px;
+    border-radius: 20px;
+    background: inherit;
+    background-image: url("https://raw.githubusercontent.com/eapenzacharias/backgrounds-gradients/master/css/assets/search_icon2.png") no-repeat;
+}
+
+
+nav a:last-child {
+    border: none;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main > div {
+    margin-top: 2px;
+    margin-right: 4px;
+    background-position: center;
+}
+
+.main div:last-child {
+    margin-right: 0;
+}
+
+.main div:first-child {
+    margin: 0;
+    background-position: bottom;
+}
+
+.hero-image {
+    flex-basis: 100%;
+    background: url("https://eapenzacharias.github.io/backgrounds-gradients/css/assets/your_verse_hero.jpg");
+    background-size: cover;
+    height: 640px;
+    min-width: 900px;
+}
+
+.flex-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    color: #f2f2f2;
+    font-weight: 300;
+    height: inherit;
+}
+
+.flex-text h1 {
+    font-size: 36px;
+}
+
+.flex-text p {
+    font-size: 22px;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.promo-image-1 {
+    flex: 1 1 calc(25% - 4px);
+    background: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5s.jpg") no-repeat;
+    background-position: center;
+    min-width: 200px;
+}
+
+.promo-image-2 {
+    flex: 1 1 calc(25% - 4px);
+    background: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5c.jpg") no-repeat;
+    min-width: 200px;
+}
+
+.promo-image-3 {
+    flex: 1 1 calc(25% - 4px);
+    background: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_30_years.jpg") no-repeat;
+    min-width: 200px;
+}
+
+.promo-image-4 {
+    flex: 1 1 calc(25% - 4px);
+    background: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg") no-repeat;
+    height: 200px;
+}
+
+footer {
+    display: flex;
+    font-size: .75em;
+    justify-content: center;
+}
+
+.terms-and-conditions {
+    flex-basis: 40%;
+}
+
+.bottom-nav {
+    flex-basis: 40%;
+    padding: 13px;
+}
+
+.bottom-nav img {
+  justify-content: center;
+  margin-bottom: -3px;
+}
+
+
+
+.medium:hover {
+    background-image: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/cta_your_verse_46pt.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
+    height: 55px;
+}
+
+.small {
+  cursor: pointer;
+}

@@ -12,4 +12,4 @@ Used:
 - Eva Aleksandra Veskova Jackson -- https://github.com/evaveskova/
 
 **Website**
-https://rawcdn.githack.com/evaveskova/Apple_Clone/dd486a4321b2cef0b71a5f6aa53b06f618168d81/index.html
+https://rawcdn.githack.com/evaveskova/Apple_Clone/98a649f60d69e7f6aca0683b281764d2e111e5ef/index.html
